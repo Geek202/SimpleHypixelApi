@@ -9,9 +9,9 @@ public class Banner {
 
     @Expose
     @SerializedName("Base")
-    private String base;
+    public String base;
     @Expose
     @SerializedName("Patterns")
-    private List<BannerPattern> patterns;
+    public List<BannerPattern> patterns;
 
 }

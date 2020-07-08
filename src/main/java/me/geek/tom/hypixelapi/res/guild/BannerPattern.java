@@ -7,9 +7,9 @@ public class BannerPattern {
 
     @Expose
     @SerializedName("Pattern")
-    private String pattern;
+    public String pattern;
     @Expose
     @SerializedName("Color")
-    private String color;
+    public String color;
 
 }
